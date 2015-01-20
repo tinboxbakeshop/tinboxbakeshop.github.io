@@ -8,6 +8,7 @@ For now we'll host and create the site here, if it becomes larger or no longer a
  + [Bootstrap](http://getbootstrap.com)
  + [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
  + [Compass Sass](http://compass-style.org)
+
    > Compass is our CSS pre-processor which requires usage of an installed tool to your system. Follow the instructions [here](http://compass-style.org/install/) on how to get it installed.
 
 ## Folder structure
