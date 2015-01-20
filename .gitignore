@@ -1,0 +1,6 @@
+##
+# Ignore certain file types from being committed
+##
+*.sw*
+.sass-cache
+.DS_Store
