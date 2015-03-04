@@ -16,8 +16,15 @@
 }
 
 body {
-  background-image:'cake-background.jpg';
+  background-image:url(cake-background.jpg);
+  color:#ffffff;
 }
+
+@font-face {
+    font-family: Aleo-Regular;
+    src: url(/aleo/Aleo-Regular.otf);
+}
+
 
 /* Any section container used in the above sections */
 /* line 24, ../scss/main.scss */
