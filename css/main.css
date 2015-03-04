@@ -29,6 +29,19 @@ body {
     src: url(/aleo/Aleo-Regular.otf);
 }
 
+a:link {
+    color: #ee4423;
+}
+a:visited {
+    color: #ee4423;
+}
+a:hover {
+    color: #ee4423;
+}
+a:active {
+    color: #ee4423;
+}
+
 
 /* Any section container used in the above sections */
 /* line 24, ../scss/main.scss */
