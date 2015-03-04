@@ -15,6 +15,10 @@
   padding: 20px 0px;
 }
 
+body {
+  background-image:cake-background.jpg;
+}
+
 /* Any section container used in the above sections */
 /* line 24, ../scss/main.scss */
 .tb-section {
