@@ -16,7 +16,7 @@
 }
 
 body {
-  background-image:cake-background.jpg;
+  background-image:'cake-background.jpg';
 }
 
 /* Any section container used in the above sections */
