@@ -1,3 +1,22 @@
 /**
  * Main Sass file for Tin Box Bakeshop Website
  */
+/* Add container items here or all children of this container */
+/* Top section */
+/* line 10, ../scss/main.scss */
+.tb-top {
+  padding: 20px 0px;
+}
+
+/* Main section */
+/* Footer */
+/* line 19, ../scss/main.scss */
+.tb-footer {
+  padding: 20px 0px;
+}
+
+/* Any section container used in the above sections */
+/* line 24, ../scss/main.scss */
+.tb-section {
+  padding: 15px;
+}
