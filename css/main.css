@@ -50,16 +50,16 @@ a:active {
 }
 
 /*Mailto Link*/
-.btnmailto a:link {
+.btnmailto:link {
   color: white;
 }
-.btnmailto a:hover {
+.btnmailto:hover {
   color: white;
 }
-.btnmailto a:active {
+.btnmailto:active {
   color: white;
 }
-.btnmailto a:visited {
+.btnmailto:visited {
   color: white;
 }
 }
