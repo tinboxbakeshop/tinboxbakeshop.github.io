@@ -74,3 +74,9 @@ a:active {
   width: 132px;
   height: 44px;
 }
+
+.btn-primary {
+  background: #EE4322;
+  width: 132px;
+  height: 44px;
+}
