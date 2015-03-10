@@ -48,3 +48,18 @@ a:active {
 .tb-section {
   padding: 15px;
 }
+
+/*Mailto Link*/
+.btnmailto a:link {
+  color: white;
+}
+.btnmailto a:hover {
+  color: white;
+}
+.btnmailto a:active {
+  color: white;
+}
+.btnmailto a:visited {
+  color: white;
+}
+}
