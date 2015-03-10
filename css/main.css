@@ -67,3 +67,10 @@ a:active {
   text-decoration: none;
 }
 }
+
+/*Button Style*/
+.btn {
+  background: #EE4322;
+  width: 132px;
+  height: 44px;
+}
