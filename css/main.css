@@ -52,6 +52,7 @@ a:active {
 /*Mailto Link*/
 .btnmailto:link {
   color: white;
+  text-decoration: none;
 }
 .btnmailto:hover {
   color: white;
@@ -63,5 +64,6 @@ a:active {
 }
 .btnmailto:visited {
   color: white;
+  text-decoration: none;
 }
 }
