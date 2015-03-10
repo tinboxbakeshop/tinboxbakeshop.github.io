@@ -69,14 +69,18 @@ a:active {
 }
 
 /*Button Style*/
-.btn {
-  background: #EE4322;
-  width: 132px;
-  height: 44px;
-}
 
 .btn-primary {
   background: #EE4322;
   width: 132px;
   height: 44px;
+  border-radius: 0px;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #EE4322;
+}
+.btn-primary:active {
+  background: #EE4322;
 }
