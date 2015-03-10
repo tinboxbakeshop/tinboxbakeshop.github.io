@@ -48,39 +48,3 @@ a:active {
 .tb-section {
   padding: 15px;
 }
-
-/*Mailto Link*/
-.btnmailto:link {
-  color: white;
-  text-decoration: none;
-}
-.btnmailto:hover {
-  color: white;
-  text-decoration: none;
-}
-.btnmailto:active {
-  color: white;
-  text-decoration: none;
-}
-.btnmailto:visited {
-  color: white;
-  text-decoration: none;
-}
-}
-
-/*Button Style*/
-
-.btn-primary {
-  background: #EE4322;
-  width: 132px;
-  height: 44px;
-  border-radius: 0px;
-  border: none;
-}
-
-.btn-primary:hover {
-  background: #EE4322;
-}
-.btn-primary:active {
-  background: #EE4322;
-}
