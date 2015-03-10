@@ -2,25 +2,16 @@
  * Main Sass file for Tin Box Bakeshop Website
  */
 
-/* Add container items here or all children of this container */
-.tinbox {
-}
+/* Mixins */
+@import 'vendor/bootstrap/mixins';
 
-/* Top section */
-.tb-top {
-    padding: 20px 0px;
-}
+/* Global variables */
+$blood-orange: #ee4423;
 
-/* Main section */
-.tb-main {
-}
+/* Add web fonts */
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
 
-/* Footer */
-.tb-footer {
-    padding: 20px 0px;
-}
-
-/* Any section container used in the above sections */
-.tb-section {
-    padding: 15px;
-}
+/* Add specifics as partials */
+@import 'dom';
+@import 'tinbox';

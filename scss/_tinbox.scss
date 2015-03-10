@@ -1,0 +1,94 @@
+/* Common classes for re-use */
+.horizontal-line {
+    border-top: 1px solid white;
+    display: block;
+    height: 1px;
+    content: ' ';
+    width: 35%;
+    position: absolute;
+    top: 1.7em;
+}
+
+/* Add container items here or all children of this container */
+.tinbox {
+    min-height: 100%;
+    font-family: 'Roboto Slab', serif;
+
+    /* This is a title with the horizontal lines */
+    .tb-title {
+        text-align: center;
+        text-transform: uppercase;
+        padding-bottom: 15px;
+
+        span {
+            display: inline-block;
+            padding: 0px 20px;
+
+            &:before {
+                @extend .horizontal-line;
+                left: 0;
+            }
+
+            &:after {
+                @extend .horizontal-line;
+                right: 0;
+                left: auto;
+            }
+        }
+    }
+}
+
+/* Top section */
+.tb-top {
+    padding: 20px 0px;
+}
+
+/* Main section */
+.tb-main {
+}
+
+/* Footer */
+.tb-footer {
+    padding: 20px 0px;
+    font-size: x-small;
+    clear: both;
+    height: 40px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+}
+
+/* Any section container used in the above sections */
+.tb-section {
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+    .btn-tinbox {
+        @include button-variant(white, $blood-orange, shade($blood-orange, 15));
+        text-transform: uppercase;
+        font-size: smaller;
+    }
+
+    .tb-social {
+        li {
+            list-style: none;
+            display: inline;
+        }
+
+        a {
+            &:link {
+                color: $blood-orange;
+            }
+            &:visited {
+                color: $blood-orange;
+            }
+            &:hover {
+                color: #ffffff;
+            }
+            &:active {
+                color: $blood-orange;
+            }
+        }
+    }
+}
