@@ -55,9 +55,11 @@ a:active {
 }
 .btnmailto:hover {
   color: white;
+  text-decoration: none;
 }
 .btnmailto:active {
   color: white;
+  text-decoration: none;
 }
 .btnmailto:visited {
   color: white;
