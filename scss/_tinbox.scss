@@ -17,7 +17,6 @@
     /* This is a title with the horizontal lines */
     .tb-title {
         text-align: center;
-        text-transform: uppercase;
         padding-bottom: 15px;
 
         span {
@@ -67,15 +66,24 @@
     .btn-tinbox {
         @include button-variant(white, $blood-orange, shade($blood-orange, 15));
         text-transform: uppercase;
-        font-size: smaller;
+        font-size: 14px;
+    }
+
+    .tb-text {
+        font-size: 24px;
+
+        span {
+            font-size: 14px;
+            display: block;
+        }
+
+        p:last-of-type {
+            font-size: 10px;
+            padding-bottom: 10px;
+        }
     }
 
     .tb-social {
-        li {
-            list-style: none;
-            display: inline;
-        }
-
         a {
             &:link {
                 color: $blood-orange;
