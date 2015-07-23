@@ -9,9 +9,18 @@
     top: 1.7em;
 }
 
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height:100%;
+}
+
 /* Add container items here or all children of this container */
 .tinbox {
-    min-height: 100%;
+    overflow: auto;
+    padding-bottom: 150px;
     font-family: 'Roboto Slab', serif;
 
     /* This is a title with the horizontal lines */
@@ -52,10 +61,8 @@
     font-size: x-small;
     clear: both;
     height: 40px;
-    bottom: 0;
-    left: 0;
     width: 100%;
-    position: absolute;
+    margin-top: -150px;
 }
 
 /* Any section container used in the above sections */
