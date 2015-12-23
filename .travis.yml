@@ -1,0 +1,10 @@
+language: ruby
+script: "./deploy.sh"
+branches:
+  only:
+  - source
+rvm:
+- 2.2.1
+env:
+  global:
+    secure: tRAxhPxxPh6jzyAa4u+MigUW5ykw1DrkI707KDYmaFCZxemjACdJK+X387vfzNTqvAHbsh43ijSddf/xbmtBtgs32RsDypKY/gum0KmBxWazgG4NTZOly+qsJMB6z/lsYgbE7golVTFRX4DHIpQ95inolEk7gDZ5/R7gajPBpBGm891XEJmA97rMKfg53cfvTHojMCxYVBI2/PySGrrnHO8mbGoApan6uN09DQS9/Ed9ru8O1Ss4RrJuUz70iRBaRtFR6Tpkzlj7Oix4S/1b6xyt7shhq95azMcnlAGpt18xtjbx5p9fdOolpKzB6KYNeR+o7nc6WYdTzSbE9TykcWTvRMpjIp20tWP6BYZnr216u31igTvVkxQ6T7STvTU/g3KDGNKWxG9UdH8nGSZYCle+8AN9GUEvGY6y6JlWTFrsP7Fk38Gg9wLhDwiSYgF9dkn+tHkjV5Q4cTs0erkAclNrhnWdu28Q7xrwy4NhPlk6xe5BDi8c5LWu4YDVj0dfZimxdVdKDrfsLw/fSIdpmBKJZvVlZys6COUIjxUAHDOtH7yYCnXqE+8E/C4enNZ9uw65EgEOMTxTEYja56wGzGr+fOwqX3TKfI1feB8JptrRRC+O41bxvs79BH84zWlITIP8gC4+F06KclPFXpYcDpZ50wc/C4+pjz1kemH9HsA=
