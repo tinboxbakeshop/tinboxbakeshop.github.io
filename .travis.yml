@@ -1,5 +1,6 @@
 language: ruby
 script: "./deploy.sh"
+cache: bundler
 branches:
   only:
   - source
