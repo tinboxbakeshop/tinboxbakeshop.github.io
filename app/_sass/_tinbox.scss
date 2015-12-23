@@ -1,0 +1,109 @@
+/* Common classes for re-use */
+.horizontal-line {
+    border-top: 1px solid white;
+    display: block;
+    height: 1px;
+    content: ' ';
+    width: 35%;
+    position: absolute;
+    top: 1.7em;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height:100%;
+}
+
+/* Add container items here or all children of this container */
+.tinbox {
+    overflow: auto;
+    padding-bottom: 150px;
+    font-family: 'Roboto Slab', serif;
+
+    /* This is a title with the horizontal lines */
+    .tb-title {
+        text-align: center;
+        padding-bottom: 15px;
+
+        span {
+            display: inline-block;
+            padding: 0px 20px;
+
+            &:before {
+                @extend .horizontal-line;
+                left: 0;
+            }
+
+            &:after {
+                @extend .horizontal-line;
+                right: 0;
+                left: auto;
+            }
+        }
+    }
+}
+
+/* Top section */
+.tb-top {
+    padding: 20px 0px;
+}
+
+/* Main section */
+.tb-main {
+}
+
+/* Footer */
+.tb-footer {
+    padding: 20px 0px;
+    font-size: x-small;
+    clear: both;
+    height: 40px;
+    width: 100%;
+    margin-top: -150px;
+}
+
+/* Any section container used in the above sections */
+.tb-section {
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+    .btn-tinbox {
+        @include button-variant(white, $blood-orange, mix(black, $blood-orange, 15));
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    .tb-text {
+        font-size: 24px;
+
+        span {
+            font-size: 14px;
+            display: block;
+        }
+
+        p:last-of-type {
+            font-size: 10px;
+            padding-bottom: 10px;
+        }
+    }
+
+    .tb-social {
+        a {
+            &:link {
+                color: $blood-orange;
+            }
+            &:visited {
+                color: $blood-orange;
+            }
+            &:hover {
+                color: #ffffff;
+            }
+            &:active {
+                color: $blood-orange;
+            }
+        }
+    }
+}

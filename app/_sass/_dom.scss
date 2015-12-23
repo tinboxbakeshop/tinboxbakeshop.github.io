@@ -1,0 +1,19 @@
+/* Main DOM elements */
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: #ffffff;
+    background: {
+        image: url('/assets/images/cake-background.jpg');
+        repeat: no-repeat;
+        position: center center;
+        attachment: fixed;
+        size: cover;
+    }
+}

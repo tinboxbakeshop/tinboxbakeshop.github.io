@@ -1,0 +1,21 @@
+# Jekyll configuration
+
+name: tinboxbakeshop.github.io
+title: Tin Box Bakeshop
+description: Tin Box Bakeshop website
+author:
+    name: Tin Box Bakeshop Team
+
+url: http://tinboxbakeshop.com
+
+source: app
+destination: .tmp
+
+# Markdown library
+markdown: redcarpet
+
+highlighter: pygments
+
+gems:
+- jekyll-redirect-from
+- bootstrap-sass
