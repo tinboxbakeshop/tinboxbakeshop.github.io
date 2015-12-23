@@ -6,7 +6,7 @@
 set -o errexit -o nounset -e
 
 # Don't build Pull Requests
-if [ $TRAVIS_PULL_REQUEST == "true" ]; then
+if [ ${TRAVIS_PULL_REQUEST} == "true" ]; then
     echo "Pull Request found. Exiting build."
     exit 0
 fi
@@ -28,6 +28,6 @@ cd ../tinboxbakeshop.github.io.master
 git config user.email "david.lin@maxajen.com"
 git config user.name "David Lin"
 git add -A .
-git commit -a -m "Travis Deploy #$TRAVIS_BUILD_NUMBER"
+git commit -a -m "Travis Deploy #${TRAVIS_BUILD_NUMBER}"
 git push --quiet origin master > /dev/null 2>&1
 
