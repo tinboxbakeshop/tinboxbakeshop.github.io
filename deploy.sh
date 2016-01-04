@@ -27,13 +27,7 @@ cp -R .tmp/* ../tinboxbakeshop.github.io.master
 cd ../tinboxbakeshop.github.io.master
 git config user.email "david.lin@maxajen.com"
 git config user.name "David Lin"
-echo "[DEBUG] Adding from git - "
 git add -A .
-echo -e "[ \e[92m DONE \e[0m ]"
-echo "[DEBUG] Committing from git - "
 git diff-index --quiet HEAD || git commit -a -m "Travis Deploy #${TRAVIS_BUILD_NUMBER}"
-echo -e "[ \e[92m DONE \e[0m ]"
-echo "[DEBUG] Pushing from git - "
-git push --quiet origin master > /dev/null 2>&1
-echo -e "[ \e[92m DONE \e[0m ]"
+git push --force --quiet origin master > /dev/null 2>&1
 
