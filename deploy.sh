@@ -29,5 +29,5 @@ git config user.email "david.lin@maxajen.com"
 git config user.name "David Lin"
 git add -A .
 git diff-index --quiet HEAD || git commit -a -m "Travis Deploy #${TRAVIS_BUILD_NUMBER}"
-git push --force --quiet origin master > /dev/null 2>&1
+git push --quiet origin test-deploy > /dev/null 2>&1
 
