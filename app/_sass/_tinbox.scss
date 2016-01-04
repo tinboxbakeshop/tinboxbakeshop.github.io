@@ -49,6 +49,10 @@ html, body {
 /* Top section */
 .tb-top {
     padding: 20px 0px;
+
+    .logo {
+        content: url('/images/133x131-logo.png');
+    }
 }
 
 /* Main section */
