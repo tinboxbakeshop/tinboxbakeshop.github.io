@@ -18,7 +18,7 @@ bundle exec jekyll build
 rm -rf ../tinboxbakeshop.github.io.master
 
 # Clone the master branch into the deploy directory
-git clone https://${GH_TOKEN}@github.com/tinboxbakeshop/tinboxbakeshop.github.io.git ../tinboxbakeshop.github.io.master
+git clone -b master --single-branch https://${GH_TOKEN}@github.com/tinboxbakeshop/tinboxbakeshop.github.io.git ../tinboxbakeshop.github.io.master
 
 # Copy the Build to the master deploy branch
 cp -R .tmp/* ../tinboxbakeshop.github.io.master
@@ -29,5 +29,5 @@ git config user.email "david.lin@maxajen.com"
 git config user.name "David Lin"
 git add -A .
 git diff-index --quiet HEAD || git commit -a -m "Travis Deploy #${TRAVIS_BUILD_NUMBER}"
-git push --quiet origin test-deploy > /dev/null 2>&1
+git push --quiet origin master > /dev/null 2>&1
 
